@@ -1,6 +1,7 @@
 # OpenSSH-Port-Banner-modified
 OpenSSH built from source to modify Port Banner name and version.
-https://user-images.githubusercontent.com/2913793/89134057-8d0cf200-d52a-11ea-8c08-9f0d2d93bee5.png
+![Custom Port Banner name](https://user-images.githubusercontent.com/2913793/89134057-8d0cf200-d52a-11ea-8c08-9f0d2d93bee5.png)
+
 
 --Changelog--
 
