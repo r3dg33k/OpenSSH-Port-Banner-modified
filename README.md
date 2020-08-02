@@ -7,12 +7,12 @@ OpenSSH built from source to modify Port Banner name and version.
 --Changelog--
 
 02-08-2020
-+ custom version name and number added
+- [ ] custom version name and number added
 
 --Issues--
-- [ ] Occasionally "service ssh start"  timesout
++ Occasionally "service ssh start"  timesout
 
 
 --To-DO-
-+ figure out timeout issue
-+ add secure ciphers to configuration
+- [ ] figure out timeout issue
+- [ ] add secure ciphers to configuration
