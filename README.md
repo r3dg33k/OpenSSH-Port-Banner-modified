@@ -10,7 +10,7 @@ OpenSSH built from source to modify Port Banner name and version.
 + custom version name and number added
 
 --Issues--
-+ occasionally "service ssh start"  timesout
+- [ ]occasionally "service ssh start"  timesout
 
 
 --To-DO-
