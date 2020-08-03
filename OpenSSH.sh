@@ -13,11 +13,11 @@ sudo useradd -r -U -d /var/lib/sshd/ -c "sshd privsep" -s /bin/false sshd
 echo -e "Downloading openssh source"
 wget -P /tmp/ http://deb.debian.org/debian/pool/main/o/openssh/openssh_8.3p1.orig.tar.gz && tar -xzf /tmp/openssh_8.3p1.orig.tar.gz -C /tmp/ &&  pushd /tmp/openssh-8.3p1/ > /dev/null
 
-echo -e "Enter desired SSH version name"
-read sshversion
+echo -e "Enter desired SSH Banner name"
+read sshbanner
 file=/tmp/openssh-8.3p1/version.h
 cat <<EOF > "${file}" 
-#define SSH_VERSION	"$sshversion"
+#define SSH_VERSION	"$sshbanner"
 #define SSH_PORTABLE	"l2"
 #define SSH_RELEASE	SSH_VERSION SSH_PORTABLE
 EOF
